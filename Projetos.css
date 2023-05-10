@@ -169,9 +169,9 @@ p{
   font-weight: bold;
 }
 
-footer{
+.text{
   padding: 0;
-  margin-top: 43.7rem;
+  margin-top: -5rem;
   font-size: 15px;
   display: flex;
   align-items: center;

@@ -134,16 +134,15 @@ main{
 footer{
   width: 100%;
   padding: 0rem;
-  margin-left: 120px;
-  text-align:right;
 }
 
 .outros-contatos{
   color: #d0d4d8e0;
-  font-size: 20px;
-  text-align:left;
+  text-align: left;
+  font-size: 25px;
   font-weight: bold;
   line-height: 1;
+  margin: 7.5rem;
   
 }
   
