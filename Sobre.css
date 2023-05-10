@@ -98,7 +98,7 @@ header{
   text-align: justify;
   margin-top: -600px;
   margin-left: 600px;
-  font-size: 20px;
+  font-size: 18px;
  
 }
 
@@ -128,8 +128,6 @@ img{
   opacity: 0.5;
 
 }
-
-
 
 
 @media(max-width:992px){
