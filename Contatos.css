@@ -13,7 +13,7 @@
 
 body{
   margin: 0 auto;
-  overflow: hidden;
+  overflow:scroll;
   font-family: "Poppins", sans-serif;
 }
 
