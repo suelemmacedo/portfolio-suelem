@@ -12,15 +12,17 @@
 }
 
 body{
-  max-width: 3000px;
+  max-width: 2500px;
   margin: 0 auto;
-  overflow: hidden;
+  overflow:scroll;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
   font-family: "Poppins", sans-serif;
 }
 
 .background{
-  background: linear-gradient(to bottom, #94b7c3, #4b4b4e);
-  background: url('./Imagens/fundo.jpg');
+  background-color: black;
   background-size:cover;
   background-position:center;
   width: 100%;
@@ -29,17 +31,19 @@ body{
 
 header{
   display: flex;
-  justify-content: space-around;
-  max-width: 100%;
+  justify-content: space-between;
+  align-content: center;
   align-items: center;
+  padding: 10px;
+  max-width: 100%;
   text-align: center;
-  padding-top: 1rem;
 }
 
 .header-link{
   display: flex;
-  gap: 3rem;
-  font-weight: 300;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
   cursor: pointer;
 }
 
@@ -59,9 +63,8 @@ header{
 .logo{
   height: 50px;
   width: 50px;
-  margin-right: 1200px;
   background: transparent;
-  border: 3px solid  #b5b7b9;
+  border: 2px solid  #b5b7b9;
   color:  #e5ff00;
   border-radius: 70%;
   display: flex;
@@ -81,25 +84,19 @@ header{
   }
 }
 
-.h1-text{
+h1{
   font-family: 'Berkshire Swash', cursive;
   color: #e5ff00;
-  font-size: 30px;
+  font-size: 40px;
   text-align: justify;
-  margin-right: 3rem;
-  margin-block: 2rem;
-  margin-top: -40rem; 
-
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;   
 }
 
 .container-text{
-  padding: 0 150px 150px 350px;
-  color:white;
-  text-align: justify;
-  margin-top: -600px;
-  margin-left: 600px;
-  font-size: 18px;
- 
+  display: flex;
+  align-items: center;
 }
 
 button{
@@ -121,25 +118,17 @@ button:hover{
 }
 
 img{
-  width: 23%;
-  margin-left: 200px;
-  margin-top: 200px;
-  border-radius: 20%;
-  opacity: 0.5;
-
+  width: 12vw;
+  height: 15vh;
+  margin-left: 44.5%;
 }
 
-
-@media(max-width:992px){
-  img{
-    grid-column: 1/-1;
-    justify-self: normal;
-  }
-  
-  .sobre-par{
-    grid-column: 1/-1;
-    justify-self:center;
-    max-width:100%;
-  }
-  
+p{
+  color: white;
+  text-align: justify;
+  margin: 5%;
+  padding: 15px;
+  font-size: 20px;
 }
+
+  

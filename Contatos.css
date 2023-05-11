@@ -12,14 +12,17 @@
 }
 
 body{
+  max-width: 2500px;
   margin: 0 auto;
   overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
   font-family: "Poppins", sans-serif;
 }
 
 .background{
-  background: linear-gradient(to bottom, #94b7c3, #4b4b4e);
-  background: url('./Imagens/fundo.jpg');
+  background-color: black;
   background-size:cover;
   background-position:center;
   width: 100%;
@@ -28,17 +31,19 @@ body{
 
 header{
   display: flex;
-  justify-content: space-around;
-  max-width: 100%;
+  justify-content: space-between;
+  align-content: center;
   align-items: center;
+  padding: 10px;
+  max-width: 100%;
   text-align: center;
-  padding-top: 1rem;
 }
 
 .header-link{
   display: flex;
-  gap: 3rem;
-  font-weight: 300;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
   cursor: pointer;
 }
 
@@ -58,9 +63,8 @@ header{
 .logo{
   height: 50px;
   width: 50px;
-  margin-right: 1200px;
   background: transparent;
-  border: 3px solid  #b5b7b9;
+  border: 2px solid  #b5b7b9;
   color:  #e5ff00;
   border-radius: 70%;
   display: flex;
@@ -100,24 +104,30 @@ button:hover{
 
 .h1-text{
   color: white;
-  font-size: 80px;
-  display: flex;
-  margin: 7rem;
-  display: flex;;
+  font-size: 40px;
   font-family: 'Berkshire Swash', cursive;
   text-align: justify;
-  margin-block: 5rem; 
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 main{
-  position:absolute;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  margin-block: 12%;
 }
 
 .redes-sociais a{
-  position:relative;
   left: 35%;
   top: 50%;
-  font-size: 100px;
+  font-size: 50px;
   transform: translate(-50%, -50%);
   color:#e5ff00;
   
@@ -125,24 +135,22 @@ main{
 
 .text{
   color:white;
-  font-size: 25px;
-  text-align: justify;
-  margin: 7rem;
-  margin-block: 15rem;
-}
-
-footer{
-  width: 100%;
-  padding: 0rem;
+  font-size: 15px;
+  text-align: center;
+  margin-block: 1rem;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
 }
 
 .outros-contatos{
   color: #d0d4d8e0;
-  text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 1;
-  margin: 7.5rem;
+  line-height: 0.5;
+  display: grid;
+  justify-content: center;
+  text-align: center;
 }
   
   

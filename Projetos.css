@@ -12,14 +12,17 @@
 }
 
 body{
+  max-width: 2500px;
   margin: 0 auto;
   overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
   font-family: "Poppins", sans-serif;
 }
 
 .background{
-  background: linear-gradient(to bottom, #94b7c3, #4b4b4e);
-  background: url('./Imagens/fundo.jpg');
+  background-color: black;
   background-size:cover;
   background-position:center;
   width: 100%;
@@ -28,24 +31,25 @@ body{
 
 header{
   display: flex;
-  justify-content: space-around;
-  max-width: 100%;
+  justify-content: space-between;
+  align-content: center;
   align-items: center;
+  padding: 10px;
+  max-width: 100%;
   text-align: center;
-  padding-top: 1rem;
 }
 
 .header-link{
   display: flex;
-  gap: 3rem;
-  font-weight: 300;
+  align-content: center;
+  align-items: center;
+  gap: 1rem;
   cursor: pointer;
 }
 
 .header-link a{
   color: white;
   font-size: 20px;
-
 }
 
 .header-link a:hover{
@@ -58,9 +62,8 @@ header{
 .logo{
   height: 50px;
   width: 50px;
-  margin-right: 1200px;
   background: transparent;
-  border: 3px solid  #b5b7b9;
+  border: 2px solid  #b5b7b9;
   color:  #e5ff00;
   border-radius: 70%;
   display: flex;
@@ -100,18 +103,13 @@ button:hover{
 
 .carousel {
   width: 100%;
-  display: flex;
   overflow: hidden;
-  position: absolute;
 }
 
 .carousel-container {
   display: flex;
-  width: 100%;
-  transition: transform 0.5s ease;
-  max-width: 1000px;
-  margin: 100px auto;
-  position: relative;
+  width: 50%;
+  transition: transform 0.7s ease;
 }
 
 .carousel-item {
@@ -125,18 +123,21 @@ button:hover{
 
 .carousel-controls {
   position: absolute;
-  bottom: 1;
+  bottom: 0;
   width: 100%;
   display: flex;
-  justify-content:center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .carousel-controls button {
+  padding: 5px;
+  margin: 5px;
   display:flex ;
-  padding: 10px 20px;
-  margin: 10px 10px;
   align-items: center;
-  justify-content: center;
+  align-content: center;
+  justify-content: center;;
   color: #e5ff00;
   background: transparent;
   font-weight: bold;
@@ -155,31 +156,28 @@ button:hover{
 
 h1{
   color: #e5ff00;;
-  margin: 7rem;
   font-family: 'Berkshire Swash', cursive;
-  font-size: 45px;
+  padding: 20px;
+  animation: inicializar .7s forwards;
+  font-size: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-p{
-  color: whitesmoke;
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .text{
+  color: white;
   padding: 0;
   margin-top: -5rem;
-  font-size: 15px;
+  font-size: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 a{
   font-size: 35px;
   color: #e5ff00;
-  margin: 1rem;
+  margin: 10px;
 }
